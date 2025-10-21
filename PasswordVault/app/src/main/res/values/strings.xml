@@ -1,0 +1,29 @@
+<resources>
+    <!-- Nome do Aplicativo -->
+    <string name="app_name">Password Vault</string>
+
+    <!-- Rótulos e Dicas para os campos de formulário -->
+    <string name="servico_label">Serviço / Site:</string>
+    <string name="servico_hint">Ex: Google, Facebook, etc.</string>
+    <string name="login_label">Login / Email:</string>
+    <string name="login_hint">seu.usuario@email.com</string>
+    <string name="senha_label">Senha:</string>
+    <string name="senha_hint">••••••••••</string>
+    <string name="site_label">URL do Site (Opcional):</string>
+    <string name="site_hint">https://www.exemplo.com</string>
+    <string name="observacao_label">Observações (Opcional):</string>
+    <string name="observacao_hint">Qualquer informação adicional</string>
+
+    <!-- Textos para Ações e Menus -->
+    <string name="salvar">Salvar</string>
+    <string name="excluir">Excluir</string>
+    <string name="pesquisar">Pesquisar Credenciais</string>
+
+    <!-- Textos para a Lista de Credenciais -->
+    <string name="empty_list_credentials">Nenhuma credencial cadastrada.</string>
+
+    <!-- Descrições de Conteúdo para Acessibilidade -->
+    <string name="add_credential_button_desc">Adicionar nova credencial</string>
+    <string name="icone_credencial_desc">Ícone de credencial</string>
+
+</resources>

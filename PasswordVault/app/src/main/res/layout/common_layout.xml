@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Campo Serviço -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/servico_label"
+        style="@style/TextAppearance.Material3.LabelLarge" />
+
+    <EditText
+        android:id="@+id/editTextServico"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/servico_hint"
+        android:inputType="textCapWords" />
+
+    <!-- Campo Login -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login_label"
+        style="@style/TextAppearance.Material3.LabelLarge" />
+
+    <EditText
+        android:id="@+id/editTextLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/login_hint"
+        android:inputType="text" />
+
+    <!-- Campo Senha -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/senha_label"
+        style="@style/TextAppearance.Material3.LabelLarge" />
+
+    <EditText
+        android:id="@+id/editTextSenha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/senha_hint"
+        android:inputType="textPassword" />
+
+    <!-- Campo Site -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/site_label"
+        style="@style/TextAppearance.Material3.LabelLarge" />
+
+    <EditText
+        android:id="@+id/editTextSite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:hint="@string/site_hint"
+        android:inputType="textUri" />
+
+    <!-- Campo Observação -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/observacao_label"
+        style="@style/TextAppearance.Material3.LabelLarge" />
+
+    <EditText
+        android:id="@+id/editTextObservacao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:hint="@string/observacao_hint"
+        android:inputType="textMultiLine"
+        android:minLines="3" />
+
+</LinearLayout>
