@@ -52,8 +52,7 @@ Este projeto foi criado para fins acadêmicos no contexto da disciplina de **PER
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU-USUARIO/PasswordVault
-
+git clone https://github.com/MADS1974/MyVault-Mads1974
 # 2. Abra o projeto no Android Studio
 # 3. Aguarde a sincronização do Gradle
 # 4. Execute no emulador ou dispositivo físico
